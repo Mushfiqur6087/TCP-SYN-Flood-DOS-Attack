@@ -65,13 +65,15 @@ The implementation supports two primary attack modes:
 
 Based on the demonstration screenshots:
 
-### Without IP Spoofing (`images/attacker_nospoof.jpg`)
+### Without IP Spoofing
+![Without IP Spoofing](images/attacker_nospoof.jpg) 
 - Attack uses real source IP address
 - Network traffic shows consistent pattern from single source
 - Easier for target to implement IP-based blocking
 - Resource consumption is moderate
 
-### With IP Spoofing (`images/attacker_spoof.jpg`) 
+### With IP Spoofing 
+![With IP Spoofing](images/attacker_spoof.jpg)
 - Attack uses randomized source IP addresses
 - Creates diverse traffic patterns that are harder to filter
 - More effective at bypassing simple IP-based defenses
@@ -79,12 +81,14 @@ Based on the demonstration screenshots:
 
 ### Victim Impact
 
-#### Without Spoofing (`images/victim_ss_no_spoof.png`)
+#### Without Spoofing 
+![Victim Without Spoofing](images/victim_ss_no_spoof.png) 
 - Server experiences moderate resource consumption
 - Connection attempts from single IP can be blocked
 - Some legitimate traffic may still get through
 
-#### With Spoofing (`images/victim_ss_spoof.png`)
+#### With Spoofing
+![Victim With Spoofing](images/victim_ss_spoof.png)
 - Server resources become severely strained
 - Difficult to distinguish malicious from legitimate traffic
 - Service becomes largely unavailable to legitimate users
